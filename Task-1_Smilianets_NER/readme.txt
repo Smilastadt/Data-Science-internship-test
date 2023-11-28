@@ -5,7 +5,11 @@ This repository contains the implementation of a Named Entity Recognition (NER) 
 Project Structure
 The project is organized into the following components:
 
-ner_model: This directory contains the trained model weights. You can find the pre-trained DistilBERT model for token classification along with additional fine-tuned weights specific to the mountain names dataset.
+ner_model: This directory contains the trained model weights. 
+You can find the pre-trained DistilBERT model for token classification along with additional fine-tuned weights specific to the mountain names dataset.
+###NOTICE###
+To utilize the scripts properly, you will need to download the model.safetensors from this link: https://drive.google.com/file/d/1mTbzqP_jIOP_1WZNv4kedYKzZsQFHe5K/view?usp=sharing
+And then place the file directly into the ner_model folder
 
 ner_tokenizer: This directory includes the tokenizer used to preprocess the text data for training and inference. It is essential for tokenizing input text before passing it to the model.
 
